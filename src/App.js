@@ -2,6 +2,7 @@ import AboutUs from "./components/AboutUs";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import OurServices from "./components/OurServices";
+import RecentWorks from "./components/RecentWorks";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <AboutUs />
       <OurServices />
+      <RecentWorks />
     </div>
   );
 }
